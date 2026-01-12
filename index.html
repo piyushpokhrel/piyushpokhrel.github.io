@@ -1,27 +1,95 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Website</title>
+  <title>My Projects</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Projects</h1>
-    <nav>
-      <ul>
-        <li><a href="twitter-data-breach.html">Twitter Data Breach</a></li>
-        <li><a href="invasive-species.html">Invasive Species</a></li>
-        <li><a href="reading-imagination.html">Reading & Imagination</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <p>Explore a collection of my written work on digital security, environmental science, and creative reflection. Click on any page to read more!</p>
-  </main>
-  <footer>
-    <p>&copy; 2025 My Portfolio</p>
-  </footer>
+  <!-- background blobs -->
+  <div class="bg-orb orb1"></div>
+  <div class="bg-orb orb2"></div>
+  <div class="bg-orb orb3"></div>
+
+  <div class="topbar">
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo"></div>
+        <span>piyush / projects</span>
+      </div>
+
+      <div class="navlinks">
+        <!-- change these links to your real ones -->
+        <a class="pill" href="https://github.com/piyushpokhrel" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="pill" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="pill" href="#" target="_blank" rel="noreferrer">Instagram</a>
+        <a class="pill" href="mailto:you@example.com">Email</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="hero">
+      <div class="panel">
+        <h1 class="h-title">A visual hub for my writing + builds.</h1>
+        <p class="h-sub">
+          Security thoughts, environmental science reflections, and creative writing — plus links to my other GitHub projects.
+          I post frequently and keep everything clean and readable.
+        </p>
+
+        <div class="badges">
+          <span class="badge">Cybersecurity</span>
+          <span class="badge">Environment</span>
+          <span class="badge">Writing</span>
+          <span class="badge">Projects</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2 style="margin:0 0 10px; font-size:18px;">Quick Links</h2>
+        <p class="h-sub" style="margin-bottom:14px;">
+          Add your main repo(s), socials, or a “Now” page here.
+        </p>
+        <a class="cta" href="https://github.com/piyushpokhrel" target="_blank" rel="noreferrer">→ My GitHub</a><br/>
+        <a class="cta" href="#" target="_blank" rel="noreferrer">→ My Portfolio / Resume</a><br/>
+        <a class="cta" href="pokhrelpiyush78@gmail.com" target="_blank" rel="noreferrer">→ Contact</a>
+      </div>
+    </section>
+
+    <section class="grid">
+      <a class="card" href="twitter-data-breach.html">
+        <h3>Twitter Data Breach</h3>
+        <p>Privacy, trust, and what we should do after massive leaks.</p>
+        <div class="meta">
+          <span>#security</span><span>#privacy</span><span>#analysis</span>
+        </div>
+        <div class="cta">Read →</div>
+      </a>
+
+      <a class="card" href="invasive-species.html">
+        <h3>Invasive Species</h3>
+        <p>Science + tech strategies fighting ecosystem imbalance.</p>
+        <div class="meta">
+          <span>#environment</span><span>#science</span><span>#reflection</span>
+        </div>
+        <div class="cta">Read →</div>
+      </a>
+
+      <a class="card" href="reading-imagination.html">
+        <h3>Reading & Imagination</h3>
+        <p>How stories expand empathy, creativity, and self-growth.</p>
+        <div class="meta">
+          <span>#writing</span><span>#books</span><span>#mindset</span>
+        </div>
+        <div class="cta">Read →</div>
+      </a>
+    </section>
+
+    <footer>
+      <div>© 2026 • Built with HTML + CSS • Hosted on GitHub Pages</div>
+    </footer>
+  </div>
 </body>
 </html>
